@@ -17,7 +17,7 @@ function handleSubmit(event) {
         password: password.value,
     };
 
-    confirm.log(userInfo);
+    console.log(userInfo);
 
     event.currentTarget.reset();
 }
